@@ -8,9 +8,19 @@ use Illuminate\Database\Eloquent\Model;
 class Contact extends Model
 {
     protected $fillable = [
-        'name',
+        'first_name',
+        'last_name',
+        'gender',
         'email',
-        'tel',
-        'content'
+        'tell',
+        'address',
+        'building',
+        'category_id',
+        'detail',
     ];
+
+    public function category()
+    {
+       return $this->belongsTo(Category::class);
+    }
 }
