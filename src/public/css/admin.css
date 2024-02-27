@@ -1,0 +1,85 @@
+.admin__content {
+    margin: 0 auto;
+    padding: 3vw 1.5vw;
+    /* max-width: 1230px; */
+}
+
+.admin__heading {
+    margin-bottom: 4vw;
+    text-align: center;
+}
+
+.admin__heading h2 {
+    font-size: max(4vw, 10px);
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5vw;
+    font-size: max(2vw, 7px);
+}
+
+.form__group-content input::placeholder {
+    font-size: max(1.5vw, 7px);
+}
+
+
+
+.form__label--required {
+    margin-left: 0.5vw;
+    padding: 0.4vw 0.6vw;
+    border-radius: 3px;
+    background: #fafafa;
+    color: #aaa;
+}
+
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+
+.form__input--text input,
+.form__input--textarea textarea {
+    padding: 10px;
+    width: 50vw;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+
+    appearance: none;
+}
+
+.form__input--text input {
+    height: 5vw;
+}
+
+.form__input--textarea textarea {
+    height: 180px;
+}
+
+.form__input--textarea textarea::placeholder {
+    font-size: max(1.5vw, 7px);
+}
+
+.form__button {
+    margin-top: 30px;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 30%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    font-size: max(2vw, 7px);
+}
